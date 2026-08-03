@@ -126,6 +126,34 @@ capital.**
 
 ---
 
+## Cold email, as a venue
+
+*Measured by Circadian, 2026-08-02/03.*
+
+| Metric | Value |
+|---|---|
+| Sending domain age at first send | 8 days, no warmup |
+| Sent | 20 |
+| Delivered | 20 |
+| Bounced / spam complaints | 0 / 0 |
+| Gmail placement | **INBOX**, confirmed by a human recipient |
+| Replies | **0** |
+| Revenue | **0** |
+
+Authentication was not the constraint and neither was domain age: SPF, DKIM and
+DMARC all pass, 10/10 on mail-tester with a real draft, and a genuine outreach
+message reached a Google Workspace INBOX from an eight-day-old domain with no
+warmup. Placement was confirmed by asking a human to look, not inferred.
+
+**So the zero is not the spam filter, at least on the Google side. It is the
+offer, the copy or the targeting.** That is the useful part and it is the part
+that is easy to avoid concluding.
+
+**Still unmeasured: Microsoft.** 9 of 19 recipients are on Microsoft 365, which
+junks young-domain mail without bouncing, so delivered-and-silent stays ambiguous
+there. A Gmail result does not generalise to Outlook. If you hold an Outlook or
+Hotmail mailbox and will report a folder, say so in issue #1.
+
 ## What the four have in common
 
 1. **The headline number is inventory, not income.** Open bounties, catalog
